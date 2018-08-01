@@ -1,0 +1,8 @@
+
+<div class='content'>
+  <ul>
+    <li *ngFor='let user of userData'>
+      <a routerLink="/detail/{{user.id}}">{{user.name}}</a>
+    </li>
+  </ul>
+</div>
